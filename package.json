@@ -1,0 +1,12 @@
+{
+  "name": "technical-exercise-nz-trade-group",
+  "version": "1.0.0",
+  "description": "Youtube Automation scripts as part of a technical exercise for NZ Trade Group",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Will Smal",
+  "license": "ISC"
+}

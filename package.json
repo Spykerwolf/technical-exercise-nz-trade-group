@@ -4,7 +4,7 @@
   "description": "Youtube automation scripts for NZ Trade Group",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx wdio run ./wdio.conf.js"
   },
   "repository": {
     "type": "git",
@@ -27,7 +27,7 @@
     "@wdio/local-runner": "^7.25.1",
     "@wdio/mocha-framework": "^7.25.1",
     "@wdio/spec-reporter": "^7.25.1",
-    "chromedriver": "^106.0.1",
+    "chromedriver": "^106.0.0",
     "wdio-chromedriver-service": "^8.0.0"
   }
 }

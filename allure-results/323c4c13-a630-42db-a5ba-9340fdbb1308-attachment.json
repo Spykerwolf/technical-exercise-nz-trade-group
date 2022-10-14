@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "[role=\"combobox\"],input[type=\"email\"],input[type=\"search\"],input[type=\"tel\"],input[type=\"text\"],input[type=\"url\"],input[type=\"url\"],select[size],select[size=\"1\"]"
+}

@@ -21,7 +21,7 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './test/youtube/**/*.js',
+        './test-cases-WS/youtube/*.js',
     ],
     // Patterns to exclude.
     exclude: [

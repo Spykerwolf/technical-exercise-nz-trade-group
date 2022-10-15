@@ -1,4 +1,4 @@
-for (let x=0 ;x < 10;x++) {
+for (let x=0 ;x < 3;x++) {
 
 // Test case 1: Search function test
 

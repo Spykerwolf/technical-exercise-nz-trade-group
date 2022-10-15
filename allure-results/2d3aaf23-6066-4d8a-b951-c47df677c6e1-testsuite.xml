@@ -1,0 +1,69 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1665791460451' stop='1665791464511'>
+    <name>Scrapes data from Amazon</name>
+    <title>Scrapes data from Amazon</title>
+    <test-cases>
+        <test-case start='1665791460451' status='broken' stop='1665791464510'>
+            <name>should get the correct data from Amazon</name>
+            <title>should get the correct data from Amazon</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps>
+                <step start='1665791460452' status='passed' stop='1665791464343'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='5b166977-5118-41cb-ba79-cf547447994a-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665791464345' status='passed' stop='1665791464357'>
+                    <name>GET /session/:sessionId/url</name>
+                    <title>GET /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Response' source='339f16a5-5d43-4323-82d7-d7410c972bb5-attachment.json' type='application/json' size='70'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665791464360' status='passed' stop='1665791464374'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='510b16e8-3710-40da-8211-04f59c424628-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='1f8f9e0c-ef42-4bd5-9905-f64f7cf0af1b-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665791464377' status='passed' stop='1665791464381'>
+                    <name>GET /session/:sessionId/element/dd311a3e-a4ed-4f42-a06d-d5431246a3a3/property/src</name>
+                    <title>GET /session/:sessionId/element/dd311a3e-a4ed-4f42-a06d-d5431246a3a3/property/src</title>
+                    <attachments>
+                        <attachment title='Response' source='13fb22b3-dc13-467d-913b-85ed09bd9d94-attachment.json' type='application/json' size='77'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665791464384' status='passed' stop='1665791464509'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='0d3cb44a-eb35-47a9-8b0b-7b8be17fdaaa-attachment.png' type='image/png' size='471899'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>src.jsonvalue is not a function</message>
+                <stack-trace>TypeError: src.jsonvalue is not a function
+                    at Context.&lt;anonymous> (C:\Users\wills\Desktop\QA\technical-exercise-nz-trade-group\test\youtube\/youtube-test-cases.js:66:30)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

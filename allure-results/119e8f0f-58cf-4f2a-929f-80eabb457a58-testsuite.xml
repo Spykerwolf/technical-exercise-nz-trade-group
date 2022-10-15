@@ -1,0 +1,144 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1665785198447' stop='1665785215737'>
+    <name>Login &amp; logout function works as expected</name>
+    <title>Login &amp; logout function works as expected</title>
+    <test-cases>
+        <test-case start='1665785198447' status='broken' stop='1665785215736'>
+            <name>Login should accept valid credentials</name>
+            <title>Login should accept valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps>
+                <step start='1665785198448' status='passed' stop='1665785201145'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='ae0e4406-f047-459e-b74d-ea598a720020-attachment.json' type='application/json' size='39'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665785201146' status='passed' stop='1665785201246'>
+                    <name>GET /session/:sessionId/url</name>
+                    <title>GET /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Response' source='8b5a1fe1-5e0f-40c0-94a9-4dca95f46e71-attachment.json' type='application/json' size='26'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665785201248' status='passed' stop='1665785201266'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f6912ce9-8033-40fc-a0f2-7089646121ed-attachment.json' type='application/json' size='74'/>
+                        <attachment title='Response' source='333551cb-b957-49f8-b10d-68efd4f99018-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665785201270' status='passed' stop='1665785201900'>
+                    <name>POST /session/:sessionId/element/3d357971-45d9-4f5b-bcca-817bcdb63025/click</name>
+                    <title>POST /session/:sessionId/element/3d357971-45d9-4f5b-bcca-817bcdb63025/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1665785201900' status='passed' stop='1665785201904'>
+                    <name>GET /session/:sessionId/url</name>
+                    <title>GET /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Response' source='c9414e6c-a8eb-468c-87bc-fa8f30a696d0-attachment.json' type='application/json' size='451'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665785201905' status='passed' stop='1665785201914'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='e60679b7-f608-4e32-8a2c-56120ef1ae43-attachment.json' type='application/json' size='57'/>
+                        <attachment title='Response' source='2422252d-602b-47e2-9402-b85ea577fd9b-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665785201916' status='passed' stop='1665785201934'>
+                    <name>POST /session/:sessionId/element/66b15809-c4da-40a9-8e18-b7b839ac47e7/clear</name>
+                    <title>POST /session/:sessionId/element/66b15809-c4da-40a9-8e18-b7b839ac47e7/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1665785201937' status='passed' stop='1665785201973'>
+                    <name>POST /session/:sessionId/element/66b15809-c4da-40a9-8e18-b7b839ac47e7/value</name>
+                    <title>POST /session/:sessionId/element/66b15809-c4da-40a9-8e18-b7b839ac47e7/value</title>
+                    <attachments>
+                        <attachment title='Request' source='991dd806-0c42-4cc7-abf7-d8cb874b408b-attachment.json' type='application/json' size='44'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665785201973' status='passed' stop='1665785201982'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='e9da62a3-3c19-422e-9b20-7bee3785c10a-attachment.json' type='application/json' size='81'/>
+                        <attachment title='Response' source='b52dc726-72ef-4e1c-957b-2e2c941c71dd-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665785201983' status='passed' stop='1665785202091'>
+                    <name>POST /session/:sessionId/element/09ed60e1-8ce4-4247-8394-0413ab007f2c/click</name>
+                    <title>POST /session/:sessionId/element/09ed60e1-8ce4-4247-8394-0413ab007f2c/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1665785206106' status='passed' stop='1665785215517'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='de778301-ed59-4aa2-a80d-e25b72116e82-attachment.json' type='application/json' size='557'/>
+                        <attachment title='Response' source='8ee33d8e-79ff-48d6-b6f7-e79647191f3e-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665785215519' status='broken' stop='1665785215736'>
+                    <name>POST /session/:sessionId/element/c26a1b59-fd7d-492a-8a92-7fa98425e2bc/clear</name>
+                    <title>POST /session/:sessionId/element/c26a1b59-fd7d-492a-8a92-7fa98425e2bc/clear</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1665785215641' status='passed' stop='1665785215735'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='14d62e13-47af-4eeb-a718-f50d2f0a0dad-attachment.png' type='image/png' size='33850'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>invalid element state
+                  (Session info: chrome=106.0.5249.119)</message>
+                <stack-trace>invalid element state: invalid element state
+                  (Session info: chrome=106.0.5249.119)
+                    at getErrorFromResponseBody (C:\Users\wills\Desktop\QA\technical-exercise-nz-trade-group\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (C:\Users\wills\Desktop\QA\technical-exercise-nz-trade-group\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at Element.wrapCommandFn (C:\Users\wills\Desktop\QA\technical-exercise-nz-trade-group\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.wrapCommandFn (C:\Users\wills\Desktop\QA\technical-exercise-nz-trade-group\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\wills\Desktop\QA\technical-exercise-nz-trade-group\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (C:\Users\wills\Desktop\QA\technical-exercise-nz-trade-group\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.wrapCommandFn (C:\Users\wills\Desktop\QA\technical-exercise-nz-trade-group\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\wills\Desktop\QA\technical-exercise-nz-trade-group\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (C:\Users\wills\Desktop\QA\technical-exercise-nz-trade-group\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.setValue (C:\Users\wills\Desktop\QA\technical-exercise-nz-trade-group\node_modules\webdriverio\build\commands\element\setValue.js:30:5)
+                    at Element.wrapCommandFn (C:\Users\wills\Desktop\QA\technical-exercise-nz-trade-group\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\wills\Desktop\QA\technical-exercise-nz-trade-group\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (C:\Users\wills\Desktop\QA\technical-exercise-nz-trade-group\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Context.&lt;anonymous> (C:\Users\wills\Desktop\QA\technical-exercise-nz-trade-group\test\youtube\/youtube-test-cases.js:29:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

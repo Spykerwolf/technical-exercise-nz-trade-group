@@ -1,0 +1,69 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1665791408437' stop='1665791411733'>
+    <name>Scrapes data from Amazon</name>
+    <title>Scrapes data from Amazon</title>
+    <test-cases>
+        <test-case start='1665791408438' status='broken' stop='1665791411733'>
+            <name>should get the correct data from Amazon</name>
+            <title>should get the correct data from Amazon</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps>
+                <step start='1665791408439' status='passed' stop='1665791411565'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='7a422298-1db4-4762-bfc7-9b44e29f8c48-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665791411566' status='passed' stop='1665791411579'>
+                    <name>GET /session/:sessionId/url</name>
+                    <title>GET /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Response' source='96b49625-3abf-423f-99c2-87a9b5736e07-attachment.json' type='application/json' size='70'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665791411582' status='passed' stop='1665791411596'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='1c607dc3-2427-4c7c-b6cc-f84e6af56c83-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='8a70d4ee-ef55-457c-8f0f-4e31d82fa4b9-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665791411600' status='passed' stop='1665791411604'>
+                    <name>GET /session/:sessionId/element/9ac894f8-990e-4122-a30e-0fbba7c6e17a/property/src</name>
+                    <title>GET /session/:sessionId/element/9ac894f8-990e-4122-a30e-0fbba7c6e17a/property/src</title>
+                    <attachments>
+                        <attachment title='Response' source='24a084a4-2bbd-4a81-94e2-8a7e7f431a93-attachment.json' type='application/json' size='77'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665791411607' status='passed' stop='1665791411732'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='2e86bf87-28ae-4cb0-9cdc-b76853d90453-attachment.png' type='image/png' size='472114'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>JSON is not a function</message>
+                <stack-trace>TypeError: JSON is not a function
+                    at Context.&lt;anonymous> (C:\Users\wills\Desktop\QA\technical-exercise-nz-trade-group\test\youtube\/youtube-test-cases.js:66:26)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

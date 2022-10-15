@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "/html/body/ytd-app/div[1]/ytd-page-manager/ytd-watch-flexy/div[5]/div[1]/div/div[2]/ytd-watch-metadata/div/div[2]/div[1]/div/ytd-text-inline-expander/div[1]/span[1]/yt-formatted-string/span[1]"
+}

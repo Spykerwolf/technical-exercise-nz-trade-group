@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "(.//*[@aria-labelledby=(//*[normalize-space() = \"Enter your password\"]/@id)] | .//*[@aria-describedby=(//*[normalize-space() = \"Enter your password\"]/@id)] | .//*[@aria-label = \"Enter your password\"] | .//input[@id = (//label[normalize-space() = \"Enter your password\"]/@for)] | .//input[@placeholder=\"Enter your password\"] | .//input[@aria-placeholder=\"Enter your password\"] | .//*[@title=\"Enter your password\"] | .//img[@alt=\"Enter your password\"] | .//*[normalize-space() = \"Enter your password\"])[1]"
+}

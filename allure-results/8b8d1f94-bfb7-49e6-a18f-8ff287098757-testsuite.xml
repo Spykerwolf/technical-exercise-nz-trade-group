@@ -1,0 +1,137 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1665785728188' stop='1665785745292'>
+    <name>Login function works as expected</name>
+    <title>Login function works as expected</title>
+    <test-cases>
+        <test-case start='1665785728189' status='broken' stop='1665785745290'>
+            <name>Login should accept valid credentials</name>
+            <title>Login should accept valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps>
+                <step start='1665785728190' status='passed' stop='1665785731084'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='59a47410-f024-4c0f-99f0-d48ae4b0d62e-attachment.json' type='application/json' size='39'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665785731085' status='passed' stop='1665785731180'>
+                    <name>GET /session/:sessionId/url</name>
+                    <title>GET /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Response' source='563b1eb5-d568-42f9-a701-2667d0c5ff44-attachment.json' type='application/json' size='26'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665785731183' status='passed' stop='1665785731197'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='4831d0fc-588f-4a00-bc90-fb32513aa6ad-attachment.json' type='application/json' size='74'/>
+                        <attachment title='Response' source='108d4915-eff4-45cf-a0d3-678dcb355edd-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665785731202' status='passed' stop='1665785731836'>
+                    <name>POST /session/:sessionId/element/82439a00-2541-4a73-b79e-3947c70866a4/click</name>
+                    <title>POST /session/:sessionId/element/82439a00-2541-4a73-b79e-3947c70866a4/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1665785731836' status='passed' stop='1665785731840'>
+                    <name>GET /session/:sessionId/url</name>
+                    <title>GET /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Response' source='bbc525cd-57b3-4f00-a57b-7bb7af51512c-attachment.json' type='application/json' size='451'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665785731842' status='passed' stop='1665785731850'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='4b744f81-df5c-44ed-9741-16198be85dcc-attachment.json' type='application/json' size='57'/>
+                        <attachment title='Response' source='617b53f6-d17a-4b4e-88a2-13ec0acfd34b-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665785731853' status='passed' stop='1665785731869'>
+                    <name>POST /session/:sessionId/element/be7e3af2-4355-4f5c-a0be-7c77ec64d153/clear</name>
+                    <title>POST /session/:sessionId/element/be7e3af2-4355-4f5c-a0be-7c77ec64d153/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1665785731873' status='passed' stop='1665785731909'>
+                    <name>POST /session/:sessionId/element/be7e3af2-4355-4f5c-a0be-7c77ec64d153/value</name>
+                    <title>POST /session/:sessionId/element/be7e3af2-4355-4f5c-a0be-7c77ec64d153/value</title>
+                    <attachments>
+                        <attachment title='Request' source='d861fb9e-ed56-47f8-9ba5-1fd41ca754ff-attachment.json' type='application/json' size='45'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665785731909' status='passed' stop='1665785731918'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ccd9c622-f276-4425-ab0a-242df83d0ce5-attachment.json' type='application/json' size='81'/>
+                        <attachment title='Response' source='fe04f947-14d4-4396-80d9-b9be7258ea94-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665785731919' status='passed' stop='1665785732029'>
+                    <name>POST /session/:sessionId/element/35419f56-e66f-4592-b9c3-c8c70b1ca6ad/click</name>
+                    <title>POST /session/:sessionId/element/35419f56-e66f-4592-b9c3-c8c70b1ca6ad/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1665785735043' status='broken' stop='1665785745290'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='e6fb4a38-ab1a-4dfb-a351-c125a50a0f1b-attachment.json' type='application/json' size='557'/>
+                    </attachments>
+                    <steps>
+                        <step start='1665785745284' status='broken' stop='1665785745290'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1665785745286' status='broken' stop='1665785745290'>
+                                    <name>DELETE /session/:sessionId</name>
+                                    <title>DELETE /session/:sessionId</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>read ECONNRESET</message>
+                <stack-trace>RequestError: read ECONNRESET
+                    at ClientRequest.&lt;anonymous> (C:\Users\wills\Desktop\QA\technical-exercise-nz-trade-group\node_modules\got\dist\source\core\index.js:970:111)
+                    at Object.onceWrapper (node:events:628:26)
+                    at ClientRequest.emit (node:events:525:35)
+                    at ClientRequest.emit (node:domain:489:12)
+                    at ClientRequest.origin.emit (C:\Users\wills\Desktop\QA\technical-exercise-nz-trade-group\node_modules\@szmarczak\http-timer\dist\source\index.js:43:20)
+                    at Socket.socketErrorListener (node:_http_client:481:9)
+                    at Socket.emit (node:events:513:28)
+                    at Socket.emit (node:domain:489:12)
+                    at emitErrorNT (node:internal/streams/destroy:157:8)
+                    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+                    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+                    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

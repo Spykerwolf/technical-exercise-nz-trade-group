@@ -1,0 +1,145 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1665784634290' stop='1665784647444'>
+    <name>Login &amp; logout function works as expected</name>
+    <title>Login &amp; logout function works as expected</title>
+    <test-cases>
+        <test-case start='1665784634290' status='broken' stop='1665784647444'>
+            <name>Login should accept valid credentials</name>
+            <title>Login should accept valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps>
+                <step start='1665784634291' status='passed' stop='1665784636882'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='bf7a482b-0d56-415c-bfd3-1031c4fb743a-attachment.json' type='application/json' size='39'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665784636884' status='passed' stop='1665784636983'>
+                    <name>GET /session/:sessionId/url</name>
+                    <title>GET /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Response' source='b93eb738-2eb5-44cd-b2aa-27cdd6de4a9f-attachment.json' type='application/json' size='26'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665784636986' status='passed' stop='1665784636999'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='9de5f10f-152d-44a2-a421-c867ba74e0da-attachment.json' type='application/json' size='74'/>
+                        <attachment title='Response' source='4530bed9-77d4-4213-96a9-0c83b760a070-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665784637003' status='passed' stop='1665784637643'>
+                    <name>POST /session/:sessionId/element/4e29c629-25a5-4b14-bff0-30067a63e265/click</name>
+                    <title>POST /session/:sessionId/element/4e29c629-25a5-4b14-bff0-30067a63e265/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1665784637643' status='passed' stop='1665784637647'>
+                    <name>GET /session/:sessionId/url</name>
+                    <title>GET /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Response' source='1c96c926-6a65-4484-97e8-abf474e24d5c-attachment.json' type='application/json' size='449'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665784637648' status='passed' stop='1665784637656'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='6f9d6d38-5fcc-4674-bd24-c10c047e18d7-attachment.json' type='application/json' size='57'/>
+                        <attachment title='Response' source='658cd6f0-7c5b-4404-adfb-059add31cdf5-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665784637658' status='passed' stop='1665784637675'>
+                    <name>POST /session/:sessionId/element/c228bec5-e643-4be6-838a-975a352fc2c2/clear</name>
+                    <title>POST /session/:sessionId/element/c228bec5-e643-4be6-838a-975a352fc2c2/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1665784637679' status='passed' stop='1665784637780'>
+                    <name>POST /session/:sessionId/element/c228bec5-e643-4be6-838a-975a352fc2c2/value</name>
+                    <title>POST /session/:sessionId/element/c228bec5-e643-4be6-838a-975a352fc2c2/value</title>
+                    <attachments>
+                        <attachment title='Request' source='cadd5b3b-0f91-41fb-9d8e-055c441aa89f-attachment.json' type='application/json' size='34'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665784637781' status='passed' stop='1665784637798'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='8b0fae00-5289-4fbe-8130-81f281658f02-attachment.json' type='application/json' size='57'/>
+                        <attachment title='Response' source='98fbd297-bc8d-45a6-881a-b15a7fb9cf6b-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665784639800' status='passed' stop='1665784639810'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='81d12480-2dc4-41df-a69c-bc4d68ce2653-attachment.json' type='application/json' size='81'/>
+                        <attachment title='Response' source='08452ec7-11b5-4f10-a067-9822dd7b42f4-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665784639812' status='passed' stop='1665784639895'>
+                    <name>POST /session/:sessionId/element/20f1c8b7-8032-4144-ba2f-77a8891ad915/click</name>
+                    <title>POST /session/:sessionId/element/20f1c8b7-8032-4144-ba2f-77a8891ad915/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1665784639895' status='broken' stop='1665784647443'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='9621726c-e285-49c9-b5c7-20fbee10a372-attachment.json' type='application/json' size='557'/>
+                    </attachments>
+                    <steps>
+                        <step start='1665784647434' status='broken' stop='1665784647443'>
+                            <name>DELETE /session/:sessionId</name>
+                            <title>DELETE /session/:sessionId</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1665784647440' status='broken' stop='1665784647443'>
+                                    <name>GET /session/:sessionId/screenshot</name>
+                                    <title>GET /session/:sessionId/screenshot</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>read ECONNRESET</message>
+                <stack-trace>RequestError: read ECONNRESET
+                    at ClientRequest.&lt;anonymous> (C:\Users\wills\Desktop\QA\technical-exercise-nz-trade-group\node_modules\got\dist\source\core\index.js:970:111)
+                    at Object.onceWrapper (node:events:628:26)
+                    at ClientRequest.emit (node:events:525:35)
+                    at ClientRequest.emit (node:domain:489:12)
+                    at ClientRequest.origin.emit (C:\Users\wills\Desktop\QA\technical-exercise-nz-trade-group\node_modules\@szmarczak\http-timer\dist\source\index.js:43:20)
+                    at Socket.socketErrorListener (node:_http_client:481:9)
+                    at Socket.emit (node:events:513:28)
+                    at Socket.emit (node:domain:489:12)
+                    at emitErrorNT (node:internal/streams/destroy:157:8)
+                    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+                    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,66 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1665828083241' stop='1665828086468'>
+    <name>Theme test</name>
+    <title>Theme test</title>
+    <test-cases>
+        <test-case start='1665828083241' status='broken' stop='1665828086468'>
+            <name>tests Theme test</name>
+            <title>tests Theme test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps>
+                <step start='1665828083242' status='passed' stop='1665828086039'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='ad92efbe-aec3-46f3-a2b6-3f871e25de33-attachment.json' type='application/json' size='39'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665828086040' status='passed' stop='1665828086141'>
+                    <name>GET /session/:sessionId/url</name>
+                    <title>GET /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Response' source='9b97629b-68f6-46e3-82c0-2311e285ea4a-attachment.json' type='application/json' size='26'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665828086143' status='broken' stop='1665828086467'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='5a3d8163-5ba9-4cb1-a062-9230a0b4e40d-attachment.json' type='application/json' size='611'/>
+                    </attachments>
+                    <steps>
+                        <step start='1665828086202' status='passed' stop='1665828086467'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='62b61ad2-7788-4a4e-a058-d21551b34686-attachment.png' type='image/png' size='1130827'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>The selector "(.//*[@aria-labelledby=(//*[normalize-space() = "Settings[role="button"]"]/@id)] | .//*[@aria-describedby=(//*[normalize-space() = "Settings[role="button"]"]/@id)] | .//*[@aria-label = "Settings[role="button"]"] | .//input[@id = (//label[normalize-space() = "Settings[role="button"]"]/@for)] | .//input[@placeholder="Settings[role="button"]"] | .//input[@aria-placeholder="Settings[role="button"]"] | .//*[@title="Settings[role="button"]"] | .//img[@alt="Settings[role="button"]"] | .//*[normalize-space() = "Settings[role="button"]"])[1]" used with strategy "xpath" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors</message>
+                <stack-trace>invalid selector: The selector "(.//*[@aria-labelledby=(//*[normalize-space() = "Settings[role="button"]"]/@id)] | .//*[@aria-describedby=(//*[normalize-space() = "Settings[role="button"]"]/@id)] | .//*[@aria-label = "Settings[role="button"]"] | .//input[@id = (//label[normalize-space() = "Settings[role="button"]"]/@for)] | .//input[@placeholder="Settings[role="button"]"] | .//input[@aria-placeholder="Settings[role="button"]"] | .//*[@title="Settings[role="button"]"] | .//img[@alt="Settings[role="button"]"] | .//*[normalize-space() = "Settings[role="button"]"])[1]" used with strategy "xpath" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors
+                    at getErrorFromResponseBody (C:\Users\wills\Desktop\QA\technical-exercise-nz-trade-group\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (C:\Users\wills\Desktop\QA\technical-exercise-nz-trade-group\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at Browser.wrapCommandFn (C:\Users\wills\Desktop\QA\technical-exercise-nz-trade-group\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Browser.$ (C:\Users\wills\Desktop\QA\technical-exercise-nz-trade-group\node_modules\webdriverio\build\commands\browser\$.js:91:17)
+                    at Browser.wrapCommandFn (C:\Users\wills\Desktop\QA\technical-exercise-nz-trade-group\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Context.&lt;anonymous> (C:\Users\wills\Desktop\QA\technical-exercise-nz-trade-group\test\youtube\/youtube-test-cases.js:158:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

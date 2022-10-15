@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "(.//*[@aria-labelledby=(//*[normalize-space() = \"Settings[role=\"button\"]\"]/@id)] | .//*[@aria-describedby=(//*[normalize-space() = \"Settings[role=\"button\"]\"]/@id)] | .//*[@aria-label = \"Settings[role=\"button\"]\"] | .//input[@id = (//label[normalize-space() = \"Settings[role=\"button\"]\"]/@for)] | .//input[@placeholder=\"Settings[role=\"button\"]\"] | .//input[@aria-placeholder=\"Settings[role=\"button\"]\"] | .//*[@title=\"Settings[role=\"button\"]\"] | .//img[@alt=\"Settings[role=\"button\"]\"] | .//*[normalize-space() = \"Settings[role=\"button\"]\"])[1]"
+}

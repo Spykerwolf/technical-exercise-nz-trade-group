@@ -1,0 +1,92 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1665826975814' stop='1665826979152'>
+    <name>Help test</name>
+    <title>Help test</title>
+    <test-cases>
+        <test-case start='1665826975814' status='broken' stop='1665826979152'>
+            <name>tests Help test</name>
+            <title>tests Help test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps>
+                <step start='1665826975815' status='passed' stop='1665826975939'>
+                    <name>POST /session/:sessionId/window/rect</name>
+                    <title>POST /session/:sessionId/window/rect</title>
+                    <attachments>
+                        <attachment title='Request' source='75518e0a-aee1-4886-bbf8-76ab34698ed8-attachment.json' type='application/json' size='63'/>
+                        <attachment title='Response' source='028ec74c-5247-4816-b6d8-6a26fbebaa01-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665826975939' status='passed' stop='1665826978666'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='2b95429c-b11b-457b-bbcc-e42e526ee9e2-attachment.json' type='application/json' size='39'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665826978668' status='passed' stop='1665826978675'>
+                    <name>GET /session/:sessionId/url</name>
+                    <title>GET /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Response' source='5bc56d9d-92bf-40b8-96e2-b3d7ac325413-attachment.json' type='application/json' size='26'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665826978677' status='passed' stop='1665826978714'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a6c4947d-1cd7-4ad5-894c-5556ed8139fa-attachment.json' type='application/json' size='94'/>
+                        <attachment title='Response' source='8988a728-bcf1-468e-b452-abff54930fe7-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665826978718' status='passed' stop='1665826978780'>
+                    <name>POST /session/:sessionId/element/5eebe8ab-fa1b-4867-8588-b90339877a63/click</name>
+                    <title>POST /session/:sessionId/element/5eebe8ab-fa1b-4867-8588-b90339877a63/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1665826978787' status='passed' stop='1665826979150'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='b355132b-55fa-4a62-9625-cfb3552f600c-attachment.png' type='image/png' size='1157866'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Wrong parameters applied for switchToFrame
+                Usage: switchToFrame(id)
+                
+                Property Description:
+                  "id" ((number|object|null)): one of three possible types: null: this represents the top-level browsing context (i.e., not an iframe), a Number, representing the index of the window object corresponding to a frame, an Element object received using `findElement`.
+                
+                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-frame
+                </message>
+                <stack-trace>Error: Wrong parameters applied for switchToFrame
+                Usage: switchToFrame(id)
+                
+                Property Description:
+                  "id" ((number|object|null)): one of three possible types: null: this represents the top-level browsing context (i.e., not an iframe), a Number, representing the index of the window object corresponding to a frame, an Element object received using `findElement`.
+                
+                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-frame
+                
+                    at Browser.protocolCommand (C:\Users\wills\Desktop\QA\technical-exercise-nz-trade-group\node_modules\webdriver\build\command.js:32:19)
+                    at Browser.wrapCommandFn (C:\Users\wills\Desktop\QA\technical-exercise-nz-trade-group\node_modules\@wdio\utils\build\shim.js:137:38)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at Context.&lt;anonymous> (C:\Users\wills\Desktop\QA\technical-exercise-nz-trade-group\test\youtube\/youtube-test-cases.js:160:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

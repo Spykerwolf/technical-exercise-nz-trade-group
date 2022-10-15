@@ -36,9 +36,12 @@
 
 // Test case 3: Trending list details match video details
 
-describe("Trending list details match video details", () => {
-    it("Trending list details match video details", async () => {
-        const youtube = ("https://www.youtube.com")
+
+// for (let x=0 ;x < 5;x++) {
+describe('Trending list details match video details', () => {
+    it('Browse to trend page, scrape #1 video from trending videos list & convert shorts URL to standard watch url', async () => {
+        
+        await browser.setWindowSize(1920, 1080)
         await browser.url("https://www.youtube.com/")
         await expect(browser).toHaveUrl("https://www.youtube.com/")
         await browser.url("https://www.youtube.com/feed/explore")
@@ -46,65 +49,35 @@ describe("Trending list details match video details", () => {
         await browser.url("https://www.youtube.com/feed/trending")
         await expect(browser).toHaveUrl("https://www.youtube.com/feed/trending")
 
-
-
         const num1TrendingTitle = (await (await $('ytd-video-renderer.style-scope.ytd-expanded-shelf-contents-renderer:nth-of-type(1) #video-title')).getAttribute('aria-label'))
-
-        const num2TrendingTitle = (await (await $('ytd-video-renderer.style-scope.ytd-expanded-shelf-contents-renderer:nth-of-type(2) #video-title')).getAttribute('aria-label'))
-
-        const num3TrendingTitle = (await (await $('ytd-video-renderer.style-scope.ytd-expanded-shelf-contents-renderer:nth-of-type(3) #video-title')).getAttribute('aria-label'))
-
-
+        console.log(num1TrendingTitle) //Dude is a MENACE for this. 💀😭 #shorts by House of Highlights 7 days ago 22 seconds 11,529,443 views – play Short
+        
 
         const num1TrendingURL = (await (await $('ytd-video-renderer.style-scope.ytd-expanded-shelf-contents-renderer:nth-of-type(1) #video-title')).getAttribute('href'))
+        const num1TrendingURLFixed = ("https://www.youtube.com" + num1TrendingURL.replace('shorts/','watch?v='))
 
-        const num2TrendingURL = (await (await $('ytd-video-renderer.style-scope.ytd-expanded-shelf-contents-renderer:nth-of-type(2) #video-title')).getAttribute('href'))
+        await browser.url(num1TrendingURLFixed)
+        await expect(browser).toHaveUrl(num1TrendingURLFixed)
 
-        const num3TrendingURL = (await (await $('ytd-video-renderer.style-scope.ytd-expanded-shelf-contents-renderer:nth-of-type(3) #video-title')).getAttribute('href'))
+        browser.waitUntil(
+            () => browser.execute(() => document.readyState === 'complete'),
+            {
+              timeout: 60 * 1000, // 60 seconds
+              timeoutMsg: 'Message on failure'
+            }
+          );
 
-        const num1TrendingURLFixed = (youtube + num1TrendingURL.replace('shorts/','watch?v='))
-        const num2TrendingURLFixed = (youtube + num2TrendingURL.replace('shorts/','watch?v='))
-        const num3TrendingURLFixed = (youtube + num3TrendingURL.replace('shorts/','watch?v='))
+        const num1TrendingTitleOnVideoPage = (await browser.getTitle())
+        const num1TrendingViewsOnVideoPage = (await (await $("#count > ytd-video-view-count-renderer > span.view-count.style-scope.ytd-video-view-count-renderer")).getText())
 
         console.log("The number 1 trending video is:")
-        console.log(num1TrendingTitle)
-        console.log(num1TrendingURLFixed)
-        console.log("")
-        console.log("")
-        console.log("The number 2 trending video is:")
-        console.log(num2TrendingTitle)
-        console.log(num2TrendingURLFixed)
-        console.log("")
-        console.log("")
-        console.log("The number 3 trending video is:")
-        console.log(num3TrendingTitle)
-        console.log(num3TrendingURLFixed)
+        console.log("From video list: " + num1TrendingTitle + " " + num1TrendingURLFixed)
+        console.log("From actual video: " + num1TrendingTitleOnVideoPage + " " + num1TrendingViewsOnVideoPage)
         console.log("")
         console.log("")
 
-        await browser.url("https://www.youtube.com/")
-
-
-
-    // await expect(browser).toHaveUrl("https://www.realwebsite.com/")
-    // await browser.$("#img").click()
-    // await browser.$("#email").doubleClick()
-    // await browser.$("#header > ytd-active-account-header-renderer").click()
+        // await expect(num1TrendingTitle).toHaveTextContaining(num1TrendingTitleOnVideoPage)
+        // await expect (num1TrendingTitle).toHaveTextContaining(num1TrendingViewsOnVideoPage)
     });
-});
-
-
-
-// describe("Scrapes data from Youtube", () => {
-//     it("should get the correct data from Amazon", async () => {
-//     await browser.url("https://www.youtube.com/watch?v=KjbSmGuCom8")
-//     await expect(browser).toHaveUrl("https://www.youtube.com/watch?v=KjbSmGuCom8")
-
-//     const elem = await $('#snippet #formatted-snippet-text span')
-//     console.log(await elem.getText());
-
-
-
-
-//     });
-// });
+})
+// }

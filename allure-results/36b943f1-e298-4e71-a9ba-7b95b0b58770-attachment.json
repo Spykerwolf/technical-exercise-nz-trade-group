@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "#formatted-snippet-text > span:nth-child(1)"
+}

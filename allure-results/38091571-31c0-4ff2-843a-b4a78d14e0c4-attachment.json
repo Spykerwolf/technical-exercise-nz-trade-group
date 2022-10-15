@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "ytd-watch-metadata div #title h1 yt-formatted-string span"
+}

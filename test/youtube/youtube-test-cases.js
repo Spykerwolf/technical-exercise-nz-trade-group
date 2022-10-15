@@ -1,4 +1,4 @@
-// for (let x=0 ;x < 20;x++) {
+for (let x=0 ;x < 10;x++) {
 
 // Test case 1: Search function test
 
@@ -147,6 +147,7 @@ describe("Theme tests - device, light & dark", () => {
         await browser.pause(1000)
       });
   });
+}
   
 
 

@@ -1,0 +1,103 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1665831400293' stop='1665831580309'>
+    <name>Theme tests - device, light &amp; dark</name>
+    <title>Theme tests - device, light &amp; dark</title>
+    <test-cases>
+        <test-case start='1665831400294' status='broken' stop='1665831460302'>
+            <name>Testing device theme</name>
+            <title>Testing device theme</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps>
+                <step start='1665831400294' status='broken' stop='1665831460302'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='a39dad78-a1d2-4f23-b0f5-2748314fd727-attachment.json' type='application/json' size='39'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Timeout of 60000ms exceeded. The execution in the test "Theme tests - device, light &amp; dark Testing device theme" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\wills\Desktop\QA\technical-exercise-nz-trade-group\test\youtube\youtube-test-cases.js)</message>
+                <stack-trace>Error: Timeout of 60000ms exceeded. The execution in the test "Theme tests - device, light &amp; dark Testing device theme" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\wills\Desktop\QA\technical-exercise-nz-trade-group\test\youtube\youtube-test-cases.js)
+                    at createTimeoutError (C:\Users\wills\Desktop\QA\technical-exercise-nz-trade-group\node_modules\mocha\lib\errors.js:498:15)
+                    at Test.Runnable._timeoutError (C:\Users\wills\Desktop\QA\technical-exercise-nz-trade-group\node_modules\mocha\lib\runnable.js:431:10)
+                    at Timeout.&lt;anonymous> (C:\Users\wills\Desktop\QA\technical-exercise-nz-trade-group\node_modules\mocha\lib\runnable.js:246:24)
+                    at listOnTimeout (node:internal/timers:559:17)
+                    at processTimers (node:internal/timers:502:7)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1665831460302' status='broken' stop='1665831520308'>
+            <name>Testing light theme</name>
+            <title>Testing light theme</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps>
+                <step start='1665831460303' status='broken' stop='1665831520308'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='61d673da-486f-488a-8ffa-f59593406a70-attachment.json' type='application/json' size='39'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Timeout of 60000ms exceeded. The execution in the test "Theme tests - device, light &amp; dark Testing light theme" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\wills\Desktop\QA\technical-exercise-nz-trade-group\test\youtube\youtube-test-cases.js)</message>
+                <stack-trace>Error: Timeout of 60000ms exceeded. The execution in the test "Theme tests - device, light &amp; dark Testing light theme" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\wills\Desktop\QA\technical-exercise-nz-trade-group\test\youtube\youtube-test-cases.js)
+                    at createTimeoutError (C:\Users\wills\Desktop\QA\technical-exercise-nz-trade-group\node_modules\mocha\lib\errors.js:498:15)
+                    at Test.Runnable._timeoutError (C:\Users\wills\Desktop\QA\technical-exercise-nz-trade-group\node_modules\mocha\lib\runnable.js:431:10)
+                    at Timeout.&lt;anonymous> (C:\Users\wills\Desktop\QA\technical-exercise-nz-trade-group\node_modules\mocha\lib\runnable.js:246:24)
+                    at listOnTimeout (node:internal/timers:559:17)
+                    at processTimers (node:internal/timers:502:7)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1665831520308' status='broken' stop='1665831580308'>
+            <name>Testing dark theme</name>
+            <title>Testing dark theme</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps>
+                <step start='1665831520308' status='broken' stop='1665831580308'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='a64656c8-1404-4a77-9ec8-383f8017f1be-attachment.json' type='application/json' size='39'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Timeout of 60000ms exceeded. The execution in the test "Theme tests - device, light &amp; dark Testing dark theme" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\wills\Desktop\QA\technical-exercise-nz-trade-group\test\youtube\youtube-test-cases.js)</message>
+                <stack-trace>Error: Timeout of 60000ms exceeded. The execution in the test "Theme tests - device, light &amp; dark Testing dark theme" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\wills\Desktop\QA\technical-exercise-nz-trade-group\test\youtube\youtube-test-cases.js)
+                    at createTimeoutError (C:\Users\wills\Desktop\QA\technical-exercise-nz-trade-group\node_modules\mocha\lib\errors.js:498:15)
+                    at Test.Runnable._timeoutError (C:\Users\wills\Desktop\QA\technical-exercise-nz-trade-group\node_modules\mocha\lib\runnable.js:431:10)
+                    at Timeout.&lt;anonymous> (C:\Users\wills\Desktop\QA\technical-exercise-nz-trade-group\node_modules\mocha\lib\runnable.js:246:24)
+                    at listOnTimeout (node:internal/timers:559:17)
+                    at processTimers (node:internal/timers:502:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

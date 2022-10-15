@@ -1,4 +1,4 @@
-# Technial Exercise for NZ Trade Group
+# Technical Exercise for NZ Trade Group
 
 A few automated testcase scripts for youtube.com using the following tools:
 

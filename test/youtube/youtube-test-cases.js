@@ -46,11 +46,15 @@ describe("Trending list details match video details", () => {
         await browser.url("https://www.youtube.com/feed/trending")
         await expect(browser).toHaveUrl("https://www.youtube.com/feed/trending")
 
-        const num1TrendingTitle = (await (await $('ytd-video-renderer.style-scope.ytd-expanded-shelf-contents-renderer:nth-of-type(1) #video-title')).getText())
 
-        const num2TrendingTitle = (await (await $('ytd-video-renderer.style-scope.ytd-expanded-shelf-contents-renderer:nth-of-type(2) #video-title')).getText())
 
-        const num3TrendingTitle = (await (await $('ytd-video-renderer.style-scope.ytd-expanded-shelf-contents-renderer:nth-of-type(3) #video-title')).getText())
+        const num1TrendingTitle = (await (await $('ytd-video-renderer.style-scope.ytd-expanded-shelf-contents-renderer:nth-of-type(1) #video-title')).getAttribute('aria-label'))
+
+        const num2TrendingTitle = (await (await $('ytd-video-renderer.style-scope.ytd-expanded-shelf-contents-renderer:nth-of-type(2) #video-title')).getAttribute('aria-label'))
+
+        const num3TrendingTitle = (await (await $('ytd-video-renderer.style-scope.ytd-expanded-shelf-contents-renderer:nth-of-type(3) #video-title')).getAttribute('aria-label'))
+
+
 
         const num1TrendingURL = (await (await $('ytd-video-renderer.style-scope.ytd-expanded-shelf-contents-renderer:nth-of-type(1) #video-title')).getAttribute('href'))
 
@@ -58,21 +62,27 @@ describe("Trending list details match video details", () => {
 
         const num3TrendingURL = (await (await $('ytd-video-renderer.style-scope.ytd-expanded-shelf-contents-renderer:nth-of-type(3) #video-title')).getAttribute('href'))
 
+        const num1TrendingURLFixed = (youtube + num1TrendingURL.replace('shorts/','watch?v='))
+        const num2TrendingURLFixed = (youtube + num2TrendingURL.replace('shorts/','watch?v='))
+        const num3TrendingURLFixed = (youtube + num3TrendingURL.replace('shorts/','watch?v='))
+
         console.log("The number 1 trending video is:")
         console.log(num1TrendingTitle)
-        console.log(youtube + num1TrendingURL.replace('shorts','watch'))
+        console.log(num1TrendingURLFixed)
         console.log("")
         console.log("")
         console.log("The number 2 trending video is:")
         console.log(num2TrendingTitle)
-        console.log(youtube + num2TrendingURL.replace('shorts','watch'))
+        console.log(num2TrendingURLFixed)
         console.log("")
         console.log("")
         console.log("The number 3 trending video is:")
         console.log(num3TrendingTitle)
-        console.log(youtube + num3TrendingURL.replace('shorts','watch'))
+        console.log(num3TrendingURLFixed)
         console.log("")
         console.log("")
+
+        await browser.url("https://www.youtube.com/")
 
 
 

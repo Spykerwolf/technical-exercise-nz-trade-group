@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//*[@id=\"title\"]/h1/yt-formatted-string/span"
-}

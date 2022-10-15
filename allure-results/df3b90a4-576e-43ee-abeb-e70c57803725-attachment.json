@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//html/body/ytd-app/div[1]/div/ytd-masthead/div[3]/div[2]/ytd-searchbox/form/div[1]/div[1]/input"
-}

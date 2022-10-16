@@ -1,6 +1,6 @@
 for (let x=0 ;x < 3;x++) { // runs test 3 times
 
-// Test Case 3 - Theme test
+// Test case 3 - Theme test
 
 describe("Theme tests - device, light & dark", () => {
     it("Testing device theme", async () => {

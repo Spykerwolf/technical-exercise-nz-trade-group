@@ -4,7 +4,11 @@
   "description": "Youtube automation scripts for NZ Trade Group",
   "main": "index.js",
   "scripts": {
-    "test": "npx wdio run ./wdio.conf.js"
+    "allTests": "npx wdio run ./wdio.conf.js",
+    "test1": "npx wdio wdio.conf.js --spec ./test-cases-WS/youtube/TC001-Search-Functionality.js",
+    "test2": "npx wdio wdio.conf.js --spec ./test-cases-WS/youtube/TC002-Trending-Video-Description-Accuracy.js",
+    "test3": "npx wdio wdio.conf.js --spec ./test-cases-WS/youtube/TC003-Theme-Test.js",
+    "test4": "npx wdio wdio.conf.js --spec ./test-cases-WS/youtube/TC004-Video-Functionality-Tests.js"
   },
   "repository": {
     "type": "git",

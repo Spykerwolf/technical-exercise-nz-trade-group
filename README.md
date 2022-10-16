@@ -24,11 +24,16 @@ A few automated testcase scripts for youtube.com using the following tools:
 
 ### Installing
 
-* Pre-requisites: Nodejs (includes NPM) - download [here](https://nodejs.org/en/download/)
+* Pre-requisites: 
+* Windows
+* Nodejs (includes NPM) - download [here](https://nodejs.org/en/download/)
+
+* Linux
+* sudo apt install npm
 * Verify it's installed with:
 ```
 C:\Users\wills>node -v
-v16.17.1
+v16.18.0
 
 C:\Users\wills>npm -v
 8.19.2

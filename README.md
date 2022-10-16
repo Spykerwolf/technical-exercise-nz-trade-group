@@ -59,4 +59,4 @@ Will Smal
 
 ## License
 
-Private repo only for NZ Trade Group
+Repo only for NZ Trade Group

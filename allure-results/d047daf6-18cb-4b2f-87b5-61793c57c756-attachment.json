@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "(.//*[@aria-labelledby=(//*[normalize-space() = \"Search Facebook\"]/@id)] | .//*[@aria-describedby=(//*[normalize-space() = \"Search Facebook\"]/@id)] | .//*[@aria-label = \"Search Facebook\"] | .//input[@id = (//label[normalize-space() = \"Search Facebook\"]/@for)] | .//input[@placeholder=\"Search Facebook\"] | .//input[@aria-placeholder=\"Search Facebook\"] | .//*[@title=\"Search Facebook\"] | .//img[@alt=\"Search Facebook\"] | .//*[normalize-space() = \"Search Facebook\"])[1]"
-}

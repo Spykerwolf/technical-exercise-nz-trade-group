@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "(.//*[@aria-labelledby=(//*[normalize-space() = \"Settings\"]/@id)] | .//*[@aria-describedby=(//*[normalize-space() = \"Settings\"]/@id)] | .//*[@aria-label = \"Settings\"] | .//input[@id = (//label[normalize-space() = \"Settings\"]/@for)] | .//input[@placeholder=\"Settings\"] | .//input[@aria-placeholder=\"Settings\"] | .//*[@title=\"Settings\"] | .//img[@alt=\"Settings\"] | .//*[normalize-space() = \"Settings\"])[1]"
-}

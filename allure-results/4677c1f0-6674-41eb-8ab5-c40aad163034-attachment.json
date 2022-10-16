@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "(.//*[@aria-labelledby=(//*[normalize-space() = \"Search[role=combobox]\"]/@id)] | .//*[@aria-describedby=(//*[normalize-space() = \"Search[role=combobox]\"]/@id)] | .//*[@aria-label = \"Search[role=combobox]\"] | .//input[@id = (//label[normalize-space() = \"Search[role=combobox]\"]/@for)] | .//input[@placeholder=\"Search[role=combobox]\"] | .//input[@aria-placeholder=\"Search[role=combobox]\"] | .//*[@title=\"Search[role=combobox]\"] | .//img[@alt=\"Search[role=combobox]\"] | .//*[normalize-space() = \"Search[role=combobox]\"])[1]"
-}

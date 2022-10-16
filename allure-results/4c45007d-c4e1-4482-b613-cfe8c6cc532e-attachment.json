@@ -1,5 +1,0 @@
-{
-  "error": "no such element",
-  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"span yt-formatted-string span.bold\"}\n  (Session info: chrome=106.0.5249.119)",
-  "stacktrace": "Backtrace:\n\tOrdinal0 [0x010C1ED3+2236115]\n\tOrdinal0 [0x010592F1+1807089]\n\tOrdinal0 [0x00F666FD+812797]\n\tOrdinal0 [0x00F955DF+1005023]\n\tOrdinal0 [0x00F957CB+1005515]\n\tOrdinal0 [0x00FC7632+1209906]\n\tOrdinal0 [0x00FB1AD4+1120980]\n\tOrdinal0 [0x00FC59E2+1202658]\n\tOrdinal0 [0x00FB18A6+1120422]\n\tOrdinal0 [0x00F8A73D+960317]\n\tOrdinal0 [0x00F8B71F+964383]\n\tGetHandleVerifier [0x0136E7E2+2743074]\n\tGetHandleVerifier [0x013608D4+2685972]\n\tGetHandleVerifier [0x01152BAA+532202]\n\tGetHandleVerifier [0x01151990+527568]\n\tOrdinal0 [0x0106080C+1837068]\n\tOrdinal0 [0x01064CD8+1854680]\n\tOrdinal0 [0x01064DC5+1854917]\n\tOrdinal0 [0x0106ED64+1895780]\n\tBaseThreadInitThunk [0x76586739+25]\n\tRtlGetFullPathName_UEx [0x77168FD2+1218]\n\tRtlGetFullPathName_UEx [0x77168F9D+1165]\n"
-}

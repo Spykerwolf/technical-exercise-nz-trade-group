@@ -1,3 +1,6 @@
 allure-results/*.*
 node_modules/*.*
 node_modules/.cache/@babel/register/.babel.7.19.3.test.json
+node_modules
+node_modules
+node_modules
